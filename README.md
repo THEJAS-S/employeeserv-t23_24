@@ -10,7 +10,7 @@
  - For Idempotency of employee I'm considering if first name , last name and date of birth fields.
  - For Tracking the logs from a request have used Correlation Id, added using Interceptor.
  - Event Integrating testing is present in employeeservImplmenetation module cause of dependency issues.
- - Added delet and getAll and delete by id api operations as well.
+ - Added getAll and delete by id api operations as well.
 
 
 ## API Details
