@@ -1,0 +1,51 @@
+{
+  "title": "Address resource",
+  "description": "Address resource object",
+  "type": "object",
+  "javaType": "com.paypal.bfs.test.employeeserv.api.model.Address",
+  "properties": {
+    "line1": {
+      "description": "Line 1 of address",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "line2": {
+      "description": "Line 2 of address",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "city": {
+      "description": "city of the employee",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "state": {
+      "description": "state of the employee",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "country": {
+      "description": "country",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "zipcode": {
+      "description": "zipcode of the country",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    }
+  },
+  "required": [
+    "line1",
+    "city",
+    "state",
+    "country",
+    "zipcode"
+  ]
+}

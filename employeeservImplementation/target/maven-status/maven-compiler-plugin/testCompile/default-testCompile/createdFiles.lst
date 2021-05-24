@@ -1,0 +1,6 @@
+com\paypal\bfs\functionalTest\employeeserv\suite\RunSuite.class
+com\paypal\bfs\test\employeeserv\validation\EmployeeIdempotencyValidationTest.class
+com\paypal\bfs\functionalTest\employeeserv\test\EmployeeGetTest.class
+com\paypal\bfs\test\employeeserv\validation\DateValidationTest.class
+com\paypal\bfs\test\employeeserv\service\EmployeeServiceTest.class
+com\paypal\bfs\functionalTest\employeeserv\test\EmployeePostTest.class
